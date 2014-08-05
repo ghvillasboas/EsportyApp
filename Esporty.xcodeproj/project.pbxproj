@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ECC68E8199190B9002311D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68E7199190B9002311D3 /* Foundation.framework */; };
+		5ECC68EA199190B9002311D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68E9199190B9002311D3 /* CoreGraphics.framework */; };
+		5ECC68EC199190B9002311D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68EB199190B9002311D3 /* UIKit.framework */; };
+		5ECC68EE199190B9002311D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68ED199190B9002311D3 /* CoreData.framework */; };
+		5ECC68F4199190B9002311D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC68F2199190B9002311D3 /* InfoPlist.strings */; };
+		5ECC68F6199190B9002311D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC68F5199190B9002311D3 /* main.m */; };
+		5ECC68FA199190B9002311D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC68F9199190B9002311D3 /* AppDelegate.m */; };
+		5ECC68FD199190B9002311D3 /* Esporty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC68FB199190B9002311D3 /* Esporty.xcdatamodeld */; };
+		5ECC68FF199190B9002311D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC68FE199190B9002311D3 /* Images.xcassets */; };
+		5ECC6906199190B9002311D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC6905199190B9002311D3 /* XCTest.framework */; };
+		5ECC6907199190B9002311D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68E7199190B9002311D3 /* Foundation.framework */; };
+		5ECC6908199190B9002311D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68EB199190B9002311D3 /* UIKit.framework */; };
+		5ECC6909199190B9002311D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECC68ED199190B9002311D3 /* CoreData.framework */; };
+		5ECC6911199190B9002311D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC690F199190B9002311D3 /* InfoPlist.strings */; };
+		5ECC6913199190B9002311D3 /* EsportyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC6912199190B9002311D3 /* EsportyTests.m */; };
+		5ECC691D199190D5002311D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC691C199190D5002311D3 /* Main.storyboard */; };
+		5ECC692019919136002311D3 /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC691E19919136002311D3 /* PostsTableViewController.m */; };
+		5ECC692E1991C627002311D3 /* EsportyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC692D1991C627002311D3 /* EsportyCellTableViewCell.m */; };
+		5ECC693119926134002311D3 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC692F19926134002311D3 /* CoreDataTableViewController.m */; };
+		5ECC6934199264BA002311D3 /* EsportyPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC6933199264BA002311D3 /* EsportyPost.m */; };
+		5ED888C31992628D006A5D7B /* EsportyPostRemoteFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED888C21992628D006A5D7B /* EsportyPostRemoteFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ECC690A199190B9002311D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECC68DC199190B9002311D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECC68E3199190B9002311D3;
+			remoteInfo = Esporty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ECC68E4199190B9002311D3 /* Esporty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Esporty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECC68E7199190B9002311D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5ECC68E9199190B9002311D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5ECC68EB199190B9002311D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ECC68ED199190B9002311D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5ECC68F1199190B9002311D3 /* Esporty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Esporty-Info.plist"; sourceTree = "<group>"; };
+		5ECC68F3199190B9002311D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5ECC68F5199190B9002311D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ECC68F7199190B9002311D3 /* Esporty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Esporty-Prefix.pch"; sourceTree = "<group>"; };
+		5ECC68F8199190B9002311D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ECC68F9199190B9002311D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ECC68FC199190B9002311D3 /* Esporty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Esporty.xcdatamodel; sourceTree = "<group>"; };
+		5ECC68FE199190B9002311D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5ECC6904199190B9002311D3 /* EsportyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsportyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECC6905199190B9002311D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5ECC690E199190B9002311D3 /* EsportyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EsportyTests-Info.plist"; sourceTree = "<group>"; };
+		5ECC6910199190B9002311D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5ECC6912199190B9002311D3 /* EsportyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsportyTests.m; sourceTree = "<group>"; };
+		5ECC691C199190D5002311D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5ECC691E19919136002311D3 /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
+		5ECC691F19919136002311D3 /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		5ECC692C1991C627002311D3 /* EsportyCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsportyCellTableViewCell.h; sourceTree = "<group>"; };
+		5ECC692D1991C627002311D3 /* EsportyCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EsportyCellTableViewCell.m; sourceTree = "<group>"; };
+		5ECC692F19926134002311D3 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		5ECC693019926134002311D3 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		5ECC6932199264BA002311D3 /* EsportyPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsportyPost.h; sourceTree = "<group>"; };
+		5ECC6933199264BA002311D3 /* EsportyPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EsportyPost.m; sourceTree = "<group>"; };
+		5ED888C11992628D006A5D7B /* EsportyPostRemoteFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsportyPostRemoteFetcher.h; sourceTree = "<group>"; };
+		5ED888C21992628D006A5D7B /* EsportyPostRemoteFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EsportyPostRemoteFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ECC68E1199190B9002311D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC68EA199190B9002311D3 /* CoreGraphics.framework in Frameworks */,
+				5ECC68EE199190B9002311D3 /* CoreData.framework in Frameworks */,
+				5ECC68EC199190B9002311D3 /* UIKit.framework in Frameworks */,
+				5ECC68E8199190B9002311D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC6901199190B9002311D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC6906199190B9002311D3 /* XCTest.framework in Frameworks */,
+				5ECC6909199190B9002311D3 /* CoreData.framework in Frameworks */,
+				5ECC6908199190B9002311D3 /* UIKit.framework in Frameworks */,
+				5ECC6907199190B9002311D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E533D9719966ECB008B454E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC693019926134002311D3 /* CoreDataTableViewController.h */,
+				5ECC692F19926134002311D3 /* CoreDataTableViewController.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		5ECC68DB199190B9002311D3 = {
+			isa = PBXGroup;
+			children = (
+				5ECC68EF199190B9002311D3 /* Esporty */,
+				5ECC68F0199190B9002311D3 /* Supporting Files */,
+				5ECC690C199190B9002311D3 /* EsportyTests */,
+				5ECC68E6199190B9002311D3 /* Frameworks */,
+				5ECC68E5199190B9002311D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ECC68E5199190B9002311D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC68E4199190B9002311D3 /* Esporty.app */,
+				5ECC6904199190B9002311D3 /* EsportyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ECC68E6199190B9002311D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC68E7199190B9002311D3 /* Foundation.framework */,
+				5ECC68E9199190B9002311D3 /* CoreGraphics.framework */,
+				5ECC68EB199190B9002311D3 /* UIKit.framework */,
+				5ECC68ED199190B9002311D3 /* CoreData.framework */,
+				5ECC6905199190B9002311D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ECC68EF199190B9002311D3 /* Esporty */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC691C199190D5002311D3 /* Main.storyboard */,
+				5ECC68FB199190B9002311D3 /* Esporty.xcdatamodeld */,
+				5ECC68F8199190B9002311D3 /* AppDelegate.h */,
+				5ECC68F9199190B9002311D3 /* AppDelegate.m */,
+				5ECC691F19919136002311D3 /* PostsTableViewController.h */,
+				5ECC691E19919136002311D3 /* PostsTableViewController.m */,
+				5ECC692C1991C627002311D3 /* EsportyCellTableViewCell.h */,
+				5ECC692D1991C627002311D3 /* EsportyCellTableViewCell.m */,
+				5ECC692819919282002311D3 /* Models */,
+			);
+			path = Esporty;
+			sourceTree = "<group>";
+		};
+		5ECC68F0199190B9002311D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC68FE199190B9002311D3 /* Images.xcassets */,
+				5E533D9719966ECB008B454E /* Other Sources */,
+				5ECC6924199191FF002311D3 /* CoreData */,
+				5ECC68F1199190B9002311D3 /* Esporty-Info.plist */,
+				5ECC68F2199190B9002311D3 /* InfoPlist.strings */,
+				5ECC68F5199190B9002311D3 /* main.m */,
+				5ECC68F7199190B9002311D3 /* Esporty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Esporty;
+			sourceTree = "<group>";
+		};
+		5ECC690C199190B9002311D3 /* EsportyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC6912199190B9002311D3 /* EsportyTests.m */,
+				5ECC690D199190B9002311D3 /* Supporting Files */,
+			);
+			path = EsportyTests;
+			sourceTree = "<group>";
+		};
+		5ECC690D199190B9002311D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC690E199190B9002311D3 /* EsportyTests-Info.plist */,
+				5ECC690F199190B9002311D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ECC6924199191FF002311D3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5ECC6932199264BA002311D3 /* EsportyPost.h */,
+				5ECC6933199264BA002311D3 /* EsportyPost.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		5ECC692819919282002311D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ED888C11992628D006A5D7B /* EsportyPostRemoteFetcher.h */,
+				5ED888C21992628D006A5D7B /* EsportyPostRemoteFetcher.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ECC68E3199190B9002311D3 /* Esporty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECC6916199190B9002311D3 /* Build configuration list for PBXNativeTarget "Esporty" */;
+			buildPhases = (
+				5ECC68E0199190B9002311D3 /* Sources */,
+				5ECC68E1199190B9002311D3 /* Frameworks */,
+				5ECC68E2199190B9002311D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Esporty;
+			productName = Esporty;
+			productReference = 5ECC68E4199190B9002311D3 /* Esporty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ECC6903199190B9002311D3 /* EsportyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECC6919199190B9002311D3 /* Build configuration list for PBXNativeTarget "EsportyTests" */;
+			buildPhases = (
+				5ECC6900199190B9002311D3 /* Sources */,
+				5ECC6901199190B9002311D3 /* Frameworks */,
+				5ECC6902199190B9002311D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECC690B199190B9002311D3 /* PBXTargetDependency */,
+			);
+			name = EsportyTests;
+			productName = EsportyTests;
+			productReference = 5ECC6904199190B9002311D3 /* EsportyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ECC68DC199190B9002311D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "CocoaHeads Brasil";
+				TargetAttributes = {
+					5ECC68E3199190B9002311D3 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					5ECC6903199190B9002311D3 = {
+						TestTargetID = 5ECC68E3199190B9002311D3;
+					};
+				};
+			};
+			buildConfigurationList = 5ECC68DF199190B9002311D3 /* Build configuration list for PBXProject "Esporty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5ECC68DB199190B9002311D3;
+			productRefGroup = 5ECC68E5199190B9002311D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ECC68E3199190B9002311D3 /* Esporty */,
+				5ECC6903199190B9002311D3 /* EsportyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ECC68E2199190B9002311D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC691D199190D5002311D3 /* Main.storyboard in Resources */,
+				5ECC68F4199190B9002311D3 /* InfoPlist.strings in Resources */,
+				5ECC68FF199190B9002311D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC6902199190B9002311D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC6911199190B9002311D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ECC68E0199190B9002311D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC693119926134002311D3 /* CoreDataTableViewController.m in Sources */,
+				5ECC68FA199190B9002311D3 /* AppDelegate.m in Sources */,
+				5ED888C31992628D006A5D7B /* EsportyPostRemoteFetcher.m in Sources */,
+				5ECC692019919136002311D3 /* PostsTableViewController.m in Sources */,
+				5ECC6934199264BA002311D3 /* EsportyPost.m in Sources */,
+				5ECC68FD199190B9002311D3 /* Esporty.xcdatamodeld in Sources */,
+				5ECC692E1991C627002311D3 /* EsportyCellTableViewCell.m in Sources */,
+				5ECC68F6199190B9002311D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECC6900199190B9002311D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECC6913199190B9002311D3 /* EsportyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECC690B199190B9002311D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECC68E3199190B9002311D3 /* Esporty */;
+			targetProxy = 5ECC690A199190B9002311D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ECC68F2199190B9002311D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECC68F3199190B9002311D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5ECC690F199190B9002311D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECC6910199190B9002311D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ECC6914199190B9002311D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ECC6915199190B9002311D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ECC6917199190B9002311D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Villasboas (7RVCJ2F79E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Esporty/Esporty-Prefix.pch";
+				INFOPLIST_FILE = "Esporty/Esporty-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "021EB130-8F23-423D-B453-6FE85BFA8F78";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5ECC6918199190B9002311D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Villasboas (7RVCJ2F79E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Esporty/Esporty-Prefix.pch";
+				INFOPLIST_FILE = "Esporty/Esporty-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "021EB130-8F23-423D-B453-6FE85BFA8F78";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5ECC691A199190B9002311D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Esporty.app/Esporty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Esporty/Esporty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EsportyTests/EsportyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5ECC691B199190B9002311D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Esporty.app/Esporty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Esporty/Esporty-Prefix.pch";
+				INFOPLIST_FILE = "EsportyTests/EsportyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ECC68DF199190B9002311D3 /* Build configuration list for PBXProject "Esporty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECC6914199190B9002311D3 /* Debug */,
+				5ECC6915199190B9002311D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECC6916199190B9002311D3 /* Build configuration list for PBXNativeTarget "Esporty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECC6917199190B9002311D3 /* Debug */,
+				5ECC6918199190B9002311D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECC6919199190B9002311D3 /* Build configuration list for PBXNativeTarget "EsportyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECC691A199190B9002311D3 /* Debug */,
+				5ECC691B199190B9002311D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5ECC68FB199190B9002311D3 /* Esporty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5ECC68FC199190B9002311D3 /* Esporty.xcdatamodel */,
+			);
+			currentVersion = 5ECC68FC199190B9002311D3 /* Esporty.xcdatamodel */;
+			path = Esporty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5ECC68DC199190B9002311D3 /* Project object */;
+}
