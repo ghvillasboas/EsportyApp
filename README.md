@@ -1,6 +1,8 @@
 Esporty App
 =============
 
+**Procurando o Server Side? [Clique aqui](https://github.com/ghvillasboas/EsportyAppServerSide)**
+
 Este é o app hipotético gerado pelo código exemplo apresentado na [Trilha iOS do TDC SP 2014](http://www.thedevelopersconference.com.br/tdc/2014/saopaulo/trilha-ios), Melhorando a experiência do usuário usando Background Fetching, por [George Villasboas](https://twitter.com/ghvillasboas).
 
 **A keynote da talk, em PDF, pode ser [baixada aqui](https://drive.google.com/file/d/0B0KwdWz7zxc2a0QwNjRmb2ZYQzg/edit?usp=sharing)**
